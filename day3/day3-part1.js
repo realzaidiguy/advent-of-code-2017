@@ -100,6 +100,7 @@ let total_distance_from_memory1 = perpendicular_distance_from_memory1 + (number_
 // console.log("length_of_side", length_of_side);
 // console.log("perpendicular_distance_from_memory1", perpendicular_distance_from_memory1);
 
+// Finally let's log out the total distance to memory location 1
 console.log("total_distance_from_memory1", total_distance_from_memory1);
 
 /*
