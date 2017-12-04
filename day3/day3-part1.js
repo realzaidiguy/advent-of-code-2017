@@ -105,7 +105,7 @@ console.log("total_distance_from_memory1", total_distance_from_memory1);
 
 /*
 
-http://adventofcode.com/2017/day/2
+http://adventofcode.com/2017/day/3
 
 --- Day 3: Spiral Memory ---
 --- Part One ---

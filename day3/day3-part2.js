@@ -12,7 +12,7 @@ const number_to_check = 277678;
 
 /*
 
-http://adventofcode.com/2017/day/2
+http://adventofcode.com/2017/day/3
 
 --- Day 3: Spiral Memory ---
 --- Part Two ---
