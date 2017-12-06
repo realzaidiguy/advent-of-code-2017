@@ -1069,7 +1069,7 @@ var puzzleInput = `0
 -743
 -733`;
 
-// Split the passphrases into an array by splitting on the line break
+// Split the puzzle input into an array by splitting on the line break
 // and map the string elements to number elements
 let puzzleInputArray = puzzleInput.split("\n").map(Number);
 
