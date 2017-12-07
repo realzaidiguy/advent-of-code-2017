@@ -12,8 +12,17 @@ var contentArray = content.split('\n');
 
 // break each element into array of program names
 contentArray.forEach(function (element, index) {
-    contentArray[index] = element.split(/[^a-z]+/);
+    contentArray[index] = element.split(/[^a-z0-9]+/);
 });
+
+// there appear to be empty strings left behind from the
+// regex match - remove them
+for (var i = 0; i < contentArray.length; i++) {
+    var removeIndex = contentArray[i].indexOf('');
+    if (removeIndex !== -1) {
+        contentArray[i].splice(removeIndex, 1);
+    }
+}
 
 // assume the first item in the first array is the lowest program
 var lowest = contentArray[0][0];
