@@ -25,7 +25,7 @@ for (var i=0; i<contentArray.length; i++) {
 }
 
 console.log(contentArray);
-
+console.log("Still working on it - will come back to it when there is free time...");
 /*
 
 http://adventofcode.com/2017/day/7
